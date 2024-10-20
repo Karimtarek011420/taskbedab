@@ -1,0 +1,14 @@
+{
+    "build": {
+      "env": {
+        "YOUR_ENV_VARIABLE": "value"
+      }
+    },
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/dist/$1"
+      }
+    ]
+  }
+  
